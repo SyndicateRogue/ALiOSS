@@ -1,0 +1,14 @@
+PODS:
+  - ALiSSO (0.1.0)
+
+DEPENDENCIES:
+  - ALiSSO (from `../`)
+
+EXTERNAL SOURCES:
+  ALiSSO:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ALiSSO: 1b9cf961ab73e28f05c4d50ca21e70b91727412f
+
+COCOAPODS: 0.35.0

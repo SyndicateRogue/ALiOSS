@@ -27,12 +27,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'ALiSSO' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.source_files =
+    'Pod/Classes/ALiSSO.h',
+    'Pod/Classes/GHKit/*.{h,m}',
+    'Pod/Classes/OrderedDictionary/*.{h,m}',
+    'Pod/Classes/tbxml/*.{h,m}',
+    'Pod/Classes/Implementations/*.{h,m}'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
