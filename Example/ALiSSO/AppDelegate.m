@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 caojianhua. All rights reserved.
 //
 
-#import "NoAppDelegate.h"
+#import "AppDelegate.h"
 
 @implementation NoAppDelegate
 

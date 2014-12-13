@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 caojianhua. All rights reserved.
 //
 
-#import "NoViewController.h"
+#import "ViewController.h"
+#import "ALiSSO.h"
 
 @interface NoViewController ()
 
@@ -17,7 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+
+  OSSClient *aliossClient =
+    [OSSClient OSSClientWithEndPoint:@"http://xx.oss-cn-beijing.aliyuncs.com"
+                            AccessId:@"xx"
+                        andAccessKey:@"xx"];
+
+  [aliossClient putObject:nil
+                      key:@""
+                     data:nil
+           objectMetadata:nil
+                successed:^(id x) {
+
+                } failed:^(OSSError *error) {
+
+                }];
 }
 
 - (void)didReceiveMemoryWarning

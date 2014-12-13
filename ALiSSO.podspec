@@ -29,10 +29,10 @@ Pod::Spec.new do |s|
 
   s.source_files =
     'Pod/Classes/ALiSSO.h',
-    'Pod/Classes/GHKit/*.{h,m}',
+    'Pod/Classes/GHKit/*.{h,m,c}',
     'Pod/Classes/OrderedDictionary/*.{h,m}',
     'Pod/Classes/tbxml/*.{h,m}',
     'Pod/Classes/Implementations/*.{h,m}'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'ASIHTTPRequest', '~> 1.8.2'
 end
