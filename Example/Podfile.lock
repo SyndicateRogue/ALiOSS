@@ -1,5 +1,5 @@
 PODS:
-  - ALiSSO (0.1.0):
+  - ALiOSS (0.1.0):
     - ASIHTTPRequest (~> 1.8.2)
   - ASIHTTPRequest (1.8.2):
     - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
@@ -17,14 +17,14 @@ PODS:
   - Reachability (3.2)
 
 DEPENDENCIES:
-  - ALiSSO (from `../`)
+  - ALiOSS (from `../`)
 
 EXTERNAL SOURCES:
-  ALiSSO:
+  ALiOSS:
     :path: ../
 
 SPEC CHECKSUMS:
-  ALiSSO: 4e83d1cdf343e7faebdde85cca0c837f3a152dd2
+  ALiOSS: 699236908c3149248331dcee7c8c45ecb7e36ea0
   ASIHTTPRequest: 2c8335b49410c0e2ad42829c438e74d454b77590
   Reachability: 1ef8adf5c4e3d362f96515d4278f68dad3c26930
 

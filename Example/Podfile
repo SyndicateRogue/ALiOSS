@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'ALiSSO', :exclusive => true do
-  pod "ALiSSO", :path => "../"
+target 'ALiOSS', :exclusive => true do
+  pod "ALiOSS", :path => "../"
 end
 
 target 'Tests', :exclusive => true do
-  pod "ALiSSO", :path => "../"
+  pod "ALiOSS", :path => "../"
 
   
 end

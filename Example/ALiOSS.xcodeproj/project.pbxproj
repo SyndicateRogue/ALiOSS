@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512653CD1A3DDB26000B5414 /* ALiOSS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 512653CC1A3DDB26000B5414 /* ALiOSS.podspec */; };
+		51FCC2101A3DD8FC00B71469 /* ALiOSS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51FCC2021A3DD8FC00B71469 /* ALiOSS-Info.plist */; };
+		51FCC2111A3DD8FC00B71469 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FCC2051A3DD8FC00B71469 /* AppDelegate.m */; };
+		51FCC2121A3DD8FC00B71469 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FCC2061A3DD8FC00B71469 /* Main_iPad.storyboard */; };
+		51FCC2131A3DD8FC00B71469 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FCC2081A3DD8FC00B71469 /* Main_iPhone.storyboard */; };
+		51FCC2141A3DD8FC00B71469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51FCC20A1A3DD8FC00B71469 /* InfoPlist.strings */; };
+		51FCC2151A3DD8FC00B71469 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FCC20C1A3DD8FC00B71469 /* Images.xcassets */; };
+		51FCC2161A3DD8FC00B71469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FCC20D1A3DD8FC00B71469 /* main.m */; };
+		51FCC2171A3DD8FC00B71469 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FCC20F1A3DD8FC00B71469 /* ViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AppDelegate.m */; };
-		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
-		6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A2195388D20070C39A /* Main_iPad.storyboard */; };
-		6003F5A7195388D20070C39A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +26,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		D1A4F8AD9F97461416D47AE6 /* libPods-ALiSSO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC93D2C074E2A919A910C19 /* libPods-ALiSSO.a */; };
 		EC31261C2E618621ADA75D5F /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5824822B5268EB9357814A4 /* libPods-Tests.a */; };
+		F024A266DF4B3ED2E8789478 /* libPods-ALiOSS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 434B5E4357CFAE1CB2C8785C /* libPods-ALiOSS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,23 +41,25 @@
 
 /* Begin PBXFileReference section */
 		332E78B0002B37BB1DB066E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3EFD9348D9D6ADE329CA004D /* ALiSSO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ALiSSO.podspec; path = ../ALiSSO.podspec; sourceTree = "<group>"; };
+		434B5E4357CFAE1CB2C8785C /* libPods-ALiOSS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALiOSS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44021B1B3B9F921ABB099C24 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* ALiSSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALiSSO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE8AFFE8806599472AC9B61 /* Pods-ALiOSS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALiOSS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALiOSS/Pods-ALiOSS.release.xcconfig"; sourceTree = "<group>"; };
+		512653CC1A3DDB26000B5414 /* ALiOSS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ALiOSS.podspec; sourceTree = "<group>"; };
+		51FCC2021A3DD8FC00B71469 /* ALiOSS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ALiOSS-Info.plist"; sourceTree = "<group>"; };
+		51FCC2031A3DD8FC00B71469 /* ALiOSS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALiOSS-Prefix.pch"; sourceTree = "<group>"; };
+		51FCC2041A3DD8FC00B71469 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51FCC2051A3DD8FC00B71469 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51FCC2071A3DD8FC00B71469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		51FCC2091A3DD8FC00B71469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		51FCC20B1A3DD8FC00B71469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51FCC20C1A3DD8FC00B71469 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51FCC20D1A3DD8FC00B71469 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51FCC20E1A3DD8FC00B71469 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51FCC20F1A3DD8FC00B71469 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* ALiOSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALiOSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* ALiSSO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ALiSSO-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* ALiSSO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ALiSSO-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6003F5A3195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -63,6 +68,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6CF31E78A9B1EE084CB28F74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8BC93D2C074E2A919A910C19 /* libPods-ALiSSO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALiSSO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E2C443938280B0F085D676 /* Pods-ALiOSS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALiOSS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALiOSS/Pods-ALiOSS.debug.xcconfig"; sourceTree = "<group>"; };
 		A5824822B5268EB9357814A4 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3958ED651644F1D96D79E88 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7C36A8824326399B4AE2925 /* Pods-ALiSSO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALiSSO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALiSSO/Pods-ALiSSO.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +84,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				D1A4F8AD9F97461416D47AE6 /* libPods-ALiSSO.a in Frameworks */,
+				F024A266DF4B3ED2E8789478 /* libPods-ALiOSS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +102,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51FCC2011A3DD8FC00B71469 /* ALiOSS */ = {
+			isa = PBXGroup;
+			children = (
+				51FCC2021A3DD8FC00B71469 /* ALiOSS-Info.plist */,
+				51FCC2031A3DD8FC00B71469 /* ALiOSS-Prefix.pch */,
+				51FCC2041A3DD8FC00B71469 /* AppDelegate.h */,
+				51FCC2051A3DD8FC00B71469 /* AppDelegate.m */,
+				51FCC2061A3DD8FC00B71469 /* Main_iPad.storyboard */,
+				51FCC2081A3DD8FC00B71469 /* Main_iPhone.storyboard */,
+				51FCC20A1A3DD8FC00B71469 /* InfoPlist.strings */,
+				51FCC20C1A3DD8FC00B71469 /* Images.xcassets */,
+				51FCC20D1A3DD8FC00B71469 /* main.m */,
+				51FCC20E1A3DD8FC00B71469 /* ViewController.h */,
+				51FCC20F1A3DD8FC00B71469 /* ViewController.m */,
+			);
+			path = ALiOSS;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				51FCC2011A3DD8FC00B71469 /* ALiOSS */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* ALiSSO */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -110,7 +135,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ALiSSO.app */,
+				6003F58A195388D20070C39A /* ALiOSS.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
@@ -125,34 +150,9 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				8BC93D2C074E2A919A910C19 /* libPods-ALiSSO.a */,
 				A5824822B5268EB9357814A4 /* libPods-Tests.a */,
+				434B5E4357CFAE1CB2C8785C /* libPods-ALiOSS.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6003F593195388D20070C39A /* ALiSSO */ = {
-			isa = PBXGroup;
-			children = (
-				6003F59C195388D20070C39A /* AppDelegate.h */,
-				6003F59D195388D20070C39A /* AppDelegate.m */,
-				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
-				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
-				6003F5A5195388D20070C39A /* ViewController.h */,
-				6003F5A6195388D20070C39A /* ViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
-			);
-			path = ALiSSO;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* ALiSSO-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* ALiSSO-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -177,7 +177,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				3EFD9348D9D6ADE329CA004D /* ALiSSO.podspec */,
+				512653CC1A3DDB26000B5414 /* ALiOSS.podspec */,
 				332E78B0002B37BB1DB066E8 /* README.md */,
 				6CF31E78A9B1EE084CB28F74 /* LICENSE */,
 			);
@@ -191,6 +191,8 @@
 				F5F6FC8D935620028E27C79B /* Pods-ALiSSO.release.xcconfig */,
 				C3958ED651644F1D96D79E88 /* Pods-Tests.debug.xcconfig */,
 				44021B1B3B9F921ABB099C24 /* Pods-Tests.release.xcconfig */,
+				97E2C443938280B0F085D676 /* Pods-ALiOSS.debug.xcconfig */,
+				4FE8AFFE8806599472AC9B61 /* Pods-ALiOSS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -198,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* ALiSSO */ = {
+		6003F589195388D20070C39A /* ALiOSS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ALiSSO" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ALiOSS" */;
 			buildPhases = (
 				EFB0131E1C5E3D9D3AFF1CD2 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -212,9 +214,9 @@
 			);
 			dependencies = (
 			);
-			name = ALiSSO;
+			name = ALiOSS;
 			productName = ALiSSO;
-			productReference = 6003F58A195388D20070C39A /* ALiSSO.app */;
+			productReference = 6003F58A195388D20070C39A /* ALiOSS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* Tests */ = {
@@ -252,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ALiSSO" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ALiOSS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,7 +267,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* ALiSSO */,
+				6003F589195388D20070C39A /* ALiOSS */,
 				6003F5AD195388D20070C39A /* Tests */,
 			);
 		};
@@ -276,10 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				51FCC2101A3DD8FC00B71469 /* ALiOSS-Info.plist in Resources */,
+				51FCC2151A3DD8FC00B71469 /* Images.xcassets in Resources */,
+				51FCC2141A3DD8FC00B71469 /* InfoPlist.strings in Resources */,
+				51FCC2121A3DD8FC00B71469 /* Main_iPad.storyboard in Resources */,
+				51FCC2131A3DD8FC00B71469 /* Main_iPhone.storyboard in Resources */,
+				512653CD1A3DDB26000B5414 /* ALiOSS.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +340,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALiSSO/Pods-ALiSSO-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALiOSS/Pods-ALiOSS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFB0131E1C5E3D9D3AFF1CD2 /* Check Pods Manifest.lock */ = {
@@ -361,9 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				51FCC2171A3DD8FC00B71469 /* ViewController.m in Sources */,
+				51FCC2161A3DD8FC00B71469 /* main.m in Sources */,
+				51FCC2111A3DD8FC00B71469 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,34 +384,34 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* ALiSSO */;
+			target = 6003F589195388D20070C39A /* ALiOSS */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+		51FCC2061A3DD8FC00B71469 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F597195388D20070C39A /* en */,
+				51FCC2071A3DD8FC00B71469 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		6003F59F195388D20070C39A /* Main_iPhone.storyboard */ = {
+		51FCC2081A3DD8FC00B71469 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5A0195388D20070C39A /* Base */,
+				51FCC2091A3DD8FC00B71469 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		6003F5A2195388D20070C39A /* Main_iPad.storyboard */ = {
+		51FCC20A1A3DD8FC00B71469 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5A3195388D20070C39A /* Base */,
+				51FCC20B1A3DD8FC00B71469 /* en */,
 			);
-			name = Main_iPad.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -495,28 +499,28 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7C36A8824326399B4AE2925 /* Pods-ALiSSO.debug.xcconfig */;
+			baseConfigurationReference = 97E2C443938280B0F085D676 /* Pods-ALiOSS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ALiSSO/ALiSSO-Prefix.pch";
-				INFOPLIST_FILE = "ALiSSO/ALiSSO-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ALiSSO/ALiOSS-Prefix.pch";
+				INFOPLIST_FILE = "ALiSSO/ALiOSS-Info.plist";
+				PRODUCT_NAME = ALiOSS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F6FC8D935620028E27C79B /* Pods-ALiSSO.release.xcconfig */;
+			baseConfigurationReference = 4FE8AFFE8806599472AC9B61 /* Pods-ALiOSS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ALiSSO/ALiSSO-Prefix.pch";
-				INFOPLIST_FILE = "ALiSSO/ALiSSO-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ALiSSO/ALiOSS-Prefix.pch";
+				INFOPLIST_FILE = "ALiSSO/ALiOSS-Info.plist";
+				PRODUCT_NAME = ALiOSS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -566,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "ALiSSO" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ALiOSS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -575,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ALiSSO" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ALiOSS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
